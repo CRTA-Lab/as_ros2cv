@@ -1,0 +1,26 @@
+rosbag2_bagfile_information:
+  version: 5
+  storage_identifier: sqlite3
+  duration:
+    nanoseconds: 37966666666
+  starting_time:
+    nanoseconds_since_epoch: 0
+  message_count: 1140
+  topics_with_message_count:
+    - topic_metadata:
+        name: /camera/image_raw/compressed
+        type: sensor_msgs/msg/CompressedImage
+        serialization_format: cdr
+        offered_qos_profiles: ""
+      message_count: 1140
+  compression_format: ""
+  compression_mode: ""
+  relative_file_paths:
+    - Astro_cunjevi_video_bag_0.db3
+  files:
+    - path: Astro_cunjevi_video_bag_0.db3
+      starting_time:
+        nanoseconds_since_epoch: 0
+      duration:
+        nanoseconds: 37966666666
+      message_count: 1140
