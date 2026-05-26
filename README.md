@@ -5,7 +5,7 @@ Educational ROS2 package demonstrating how to convert between ROS2 image message
 ## Prerequisites
 
 ```bash
-sudo apt install ros-humble-cv-bridge ros-humble-tf2-ros python3-opencv
+sudo apt install ros-humble-cv-bridge ros-humble-tf2-ros python3-opencv ros-humble-image-transport-plugins ros-humble-compressed-image-transport
 ```
 
 ## Build
