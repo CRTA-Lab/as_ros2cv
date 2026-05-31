@@ -58,7 +58,7 @@ class BasicArucoCvTransformation(Node):
         self.dist_coeffs = None
 
         self.declare_parameter('dictionary', 250)
-        self.declare_parameter('marker_size', 0.15)  # metres
+        self.declare_parameter('marker_size', 0.1)  # metres
 
         dict_size = self.get_parameter('dictionary').get_parameter_value().integer_value
         if dict_size not in ARUCO_DICTS:
